@@ -1,30 +1,39 @@
-# React + TypeScript + Vite
+# Marques-Ecommerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Sobre
+É um site fullstack onde vai simular um e-commerce
 
-Currently, two official plugins are available:
+## Porque?
+Treinar meus limites como fullstack e adiciona-lo ao meu portifólio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Instalação do projeto
+<details>
+  <summary>Instalação e execução</summary>
+  
+  #### 1 - Clone o repositório
+  - Use o comando ```git clone git@github.com:JoaoVMarques/marques-ecommerce.git``
+  - Entre na pasta ```cd marques-ecommerce```
+  
+  #### 2 - Instalar as dependencias
+  - Para instalar as dependencias ```npm install```
 
-## Expanding the ESLint configuration
+  #### 3 - Inicie o projeto
+  - Para iniciar o projeto ```npm run dev```
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+</details>
 
-- Configure the top-level `parserOptions` property like this:
+## Parte Tecnica
+<details>
+  <summary><strong>🛠️ Ferramentas Utilizadas</strong></summary><br />
+  - [VsCode](https://code.visualstudio.com/) Editor de codigo fonte
+  - [Vite](https://vitejs.dev/) Montar o projeto
+  - [PNGwing](https://www.pngwing.com/en/) Imagens gratuitas
+  - [SvgRepo](https://www.svgrepo.com/) icones gratuitos
+</details>
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+<details>
+  <summary><strong>🧰 Dependencias</strong></summary><br />
+  - [React Bootstrap](https://react-bootstrap.netlify.app/) Estilização
+  - [React Router](https://reactrouter.com/en/main) Rotas
+  - [Linter](https://eslint.org/) Linter 
+</details>
