@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import placeholderImage from '../../../imgs/placeholder.png';
 
-function BioHomePage() {
+function BioSection() {
   return (
     <Container className='mt-5'>
       <Row>
@@ -21,4 +21,4 @@ function BioHomePage() {
   );
 }
 
-export default BioHomePage;
+export default BioSection;

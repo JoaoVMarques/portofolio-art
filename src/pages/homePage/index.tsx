@@ -1,9 +1,11 @@
-import BioHomePage from './bio';
+import BioHomePage from './BioSection';
+import ExampleSection from './ExampleSection';
 
 function HomePage() {
   return (
     <>
       <BioHomePage />
+      <ExampleSection />
     </>
   );
 }
