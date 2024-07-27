@@ -1,8 +1,8 @@
-import { Col, Container, Row } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 function ExampleSection() {
   return (
-    <Container className='mt-5'>
+    <Container className='section-background p-5'>
       <h1>Example</h1>
     </Container>
   );

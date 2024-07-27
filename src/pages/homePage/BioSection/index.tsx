@@ -1,9 +1,9 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import placeholderImage from '../../../imgs/placeholder.png';
+import placeholderImage from '../../../imgs/placeholder.jpg';
 
 function BioSection() {
   return (
-    <Container className='mt-5'>
+    <Container className='my-5'>
       <Row>
         <Col>
           <img src={placeholderImage} alt="placeholder imagem" />
