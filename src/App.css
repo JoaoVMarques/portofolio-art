@@ -1,4 +1,8 @@
 .section-background {
   background-color: #F4F3EE;
-  min-width: 100vw
+  min-width: 99.2vw
+}
+
+.section-background-primary {
+  min-width: 99.2vw
 }
