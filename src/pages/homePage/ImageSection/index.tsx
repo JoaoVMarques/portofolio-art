@@ -5,11 +5,17 @@ function ImageSection() {
   return (
     <Container className='mt-5 container-fluid section-background-primary '>
       <Row>
-        <Col className='d-flex justify-content-between'>
-          <img width={430} src={placeholderImage} />
-          <img width={430} src={placeholderImage} />
-          <img width={430} src={placeholderImage} />
-          <img width={430} src={placeholderImage} />
+        <Col>
+          <img width={440} src={placeholderImage} />
+        </Col>
+        <Col>
+          <img width={440} src={placeholderImage} />
+        </Col>
+        <Col>
+          <img width={440} src={placeholderImage} />
+        </Col>
+        <Col>
+          <img width={440} src={placeholderImage} />
         </Col>
       </Row>
     </Container>
