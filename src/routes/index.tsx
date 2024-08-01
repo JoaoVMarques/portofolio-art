@@ -6,8 +6,8 @@ function Router() {
   return (
     <Routes>
       <Route path='/' element={<HomePage />} />
-      <Route path='/Galery' element={<GaleryPage />} />
       <Route path='/Home' element={<HomePage />} />
+      <Route path='/Galery' element={<GaleryPage />} />
     </Routes>
   );
 }

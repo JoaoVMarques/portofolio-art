@@ -4,8 +4,10 @@ import {
 
 function Header() {
   return (
-    <Container>
+    <Container className='sticky-top header-background'>
       <Row>
+        <Col>
+        </Col>
         <Col>
           <Navbar>
             <Navbar.Brand href="#home">Myau</Navbar.Brand>
@@ -14,6 +16,10 @@ function Header() {
               <Nav.Link href="galery">Galeria</Nav.Link>
             </Nav>
           </Navbar>
+        </Col>
+        <Col>
+        </Col>
+        <Col>
         </Col>
       </Row>
       <hr />
