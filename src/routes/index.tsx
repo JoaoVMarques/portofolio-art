@@ -5,8 +5,9 @@ import GaleryPage from '../pages/galeryPage';
 function Router() {
   return (
     <Routes>
-      <Route path='/Galery' element={<GaleryPage />} />
       <Route path='/' element={<HomePage />} />
+      <Route path='/Galery' element={<GaleryPage />} />
+      <Route path='/Home' element={<HomePage />} />
     </Routes>
   );
 }
