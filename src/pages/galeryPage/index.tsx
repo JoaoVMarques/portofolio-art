@@ -1,5 +1,6 @@
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
-import Header from '../header';
+import Header from '../HeaderSection';
+import FooterSection from '../FooterSection';
 
 const images = [
   'https://picsum.photos/200/300?image=1050',
@@ -28,6 +29,7 @@ function GaleryPage() {
           ))}
         </Masonry>
       </ResponsiveMasonry>
+      <FooterSection />
     </>
   );
 }

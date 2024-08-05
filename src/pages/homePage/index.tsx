@@ -1,7 +1,7 @@
-import Header from '../header';
+import Header from '../HeaderSection';
 import BioHomePage from './BioSection';
 import ExampleSection from './ExampleSection';
-import FooterSection from './FooterSection';
+import FooterSection from '../FooterSection';
 import ImageSection from './ImageSection';
 
 function HomePage() {

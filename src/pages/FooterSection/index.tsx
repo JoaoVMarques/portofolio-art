@@ -1,5 +1,5 @@
 import { Col, Container, Row } from 'react-bootstrap';
-import placeholderImage from '../../../imgs/placeholder.jpg';
+import placeholderImage from '../../imgs/placeholder.jpg';
 
 function FooterSection() {
   return (

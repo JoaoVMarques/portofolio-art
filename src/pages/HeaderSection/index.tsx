@@ -2,7 +2,7 @@ import {
   Col, Container, Nav, Navbar, Row,
 } from 'react-bootstrap';
 
-function Header() {
+function HeaderSection() {
   return (
     <Container className='sticky-top header-background'>
       <Row>
@@ -27,4 +27,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default HeaderSection;
