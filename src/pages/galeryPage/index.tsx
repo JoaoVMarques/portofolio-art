@@ -1,10 +1,11 @@
 import Header from '../header';
+import placeholderImage from '../../imgs/placeholder.jpg';
 
 function GaleryPage() {
   return (
     <>
       <Header />
-      <h1>Galeria</h1>
+      <img src={placeholderImage} alt="placeholder" />
     </>
   );
 }
