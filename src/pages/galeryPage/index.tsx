@@ -1,6 +1,6 @@
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
-import Header from '../HeaderSection';
-import FooterSection from '../FooterSection';
+import Header from '../../Sections/HeaderSection';
+import FooterSection from '../../Sections/FooterSection';
 
 const images = [
   'https://picsum.photos/200/300?image=1050',
